@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Android之路</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dialog_example">Dialog示例</string>
+    <string name="title_activity_toast_example_activity">Toast示例</string>
+    <string name="show_system_string_res_toast">showSystemStringResToast</string>
+    <string name="show_customize_string_res_toast">showCustomizeStringResToast</string>
+    <string name="title_activity_log_example">Log示例</string>
+    <string name="nav_call_back">返回</string>
+    <string name="title_activity_create_candy_base_activity">测试创建</string>
+    <string name="title_activity_create_candy_base">测试创建</string>
+    <string name="title_activity_status_tool_bar">标题栏适配</string>
+    <string name="title_activity_status_tool_ba2">第二个沉浸状态栏</string>
+    <string name="title_activity_handler_error">请求结果预处理、多数据结构适配及统一错误处理</string>
+    <string name="title_activity_upload_image">图片上传</string>
+    <string name="title_activity_uploa_image_by_base64">表单文本提交(base64)</string>
+    <string name="title_activity_upload_image_by_multipart">" Multipart提交"</string>
+    <string name="title_activity_upload_image_by_request_body">RequestBody提交</string>
+    <string name="title_activity_skeleton_layout">骨架图</string>
+</resources>

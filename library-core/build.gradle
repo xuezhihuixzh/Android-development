@@ -1,0 +1,58 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 120
+        versionName "v0.12"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    // RxJava
+    api ('io.reactivex.rxjava2:rxjava:2.2.3'){
+        exclude group: 'android.appcompat'
+    }
+    // RxAndroid
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    // adapter
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.5.0'
+    // 拦截器
+    api 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    // 沉浸状态栏
+    api 'com.jaeger.statusbarutil:library:1.5.1'
+    // Gson
+    api 'com.google.code.gson:gson:2.8.2'
+    // Retrofit2
+    api 'com.squareup.retrofit2:retrofit:2.5.0'
+    // Gson转换器
+    api 'com.squareup.retrofit2:converter-gson:2.5.0'
+    // logger
+    api 'com.orhanobut:logger:2.2.0'
+    // design
+    api 'com.android.support:design:26.0.2'
+    //
+    api 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-android:2.2.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+
+
+    // 加载动画
+    api 'com.wang.avi:library:1.0.5'
+
+}

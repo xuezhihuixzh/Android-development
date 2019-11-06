@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.road.of.android">
+
+    <application
+        android:name=".global.DevApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_android_road"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_android_road"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".module.skeleton.SkeletonLayoutActivity"
+            android:label="@string/title_activity_skeleton_layout"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.upload.UploadImageByRequestBodyActivity"
+            android:label="@string/title_activity_upload_image_by_request_body"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.upload.UploadImageByMultipartActivity"
+            android:label="@string/title_activity_upload_image_by_multipart"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.upload.UploaImageByBase64Activity"
+            android:label="@string/title_activity_uploa_image_by_base64"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.upload.UploadImageMainActivity"
+            android:label="@string/title_activity_upload_image"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppThemeMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".module.user.LoginActivity"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.DialogExampleActivity"
+            android:label="@string/title_activity_dialog_example"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.ToastExampleActivityActivity"
+            android:label="@string/title_activity_toast_example_activity"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.LogExampleActivity"
+            android:label="@string/title_activity_log_example"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.CreateCandyBaseActivity"
+            android:label="@string/title_activity_create_candy_base"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.StatusToolBarActivity"
+            android:label="@string/title_activity_status_tool_bar"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.StatusToolBa2Activity"
+            android:label="@string/title_activity_status_tool_ba2"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+        <activity
+            android:name=".module.example.HandlerResponseErrorActivity"
+            android:label="@string/title_activity_handler_error"
+            android:theme="@style/AppTheme.ToolbarHeight" />
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

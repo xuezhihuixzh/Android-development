@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="loginPage"
+            android:text="Login Page" />
+
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="dialogExample"
+            android:text="Dialog Example" />
+
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="toastExample"
+            android:text="Toast Example" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="logExample"
+            android:text="Log Example" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="createCandyBaseActivity"
+            android:text="CreateCandyBaseActivity" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="statusToolBar"
+            android:text="StatusToolBar" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="handlerResponseError"
+            android:text="HandlerResponseDataAndError" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="skeletonLayout"
+            android:text="骨架图(SkeletonLayout)" />
+
+        <TextView
+            style="@style/ButtonClickStyle"
+            android:onClick="uploadImage"
+            android:text="UploadImage"
+            android:visibility="gone" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
